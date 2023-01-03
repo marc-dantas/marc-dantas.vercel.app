@@ -1,0 +1,10 @@
+@font-face {
+    font-family: LibreFranklin;
+    src: url('LibreFranklin-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'LibreFranklin';
+}
