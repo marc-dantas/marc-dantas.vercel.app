@@ -4,7 +4,6 @@ import Block from './components/Block';
 import LinkButton from './components/LinkButton';
 import Footer from './components/Footer';
 import 'bulma';
-import './style.css';
 
 export default function App() {
   return (
