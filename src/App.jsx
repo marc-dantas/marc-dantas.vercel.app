@@ -43,7 +43,7 @@ export default function App() {
             <Block link="https://gist.github.com/marc-dantas/171488bd960a5ddcc97c566510d77476" title="input.go">(Gist) Useful functions to get the input from the user in Golang </Block>
             <Block link="https://github.com/marc-dantas/marc-dantas.vercel.app" title="marc-dantas.vercel.app">My website improved in React.js (this website's source code)</Block>
             <Block link="https://github.com/marc-dantas/3d-py-pong" title="3d-py-pong">A 3D Pong game made in Python with Ursina Engine.</Block>
-            <Block link="https://github.com/marc-dantas/ts-list" title="TS List">A new version of an old todo list project written in TypeScript<Block/>
+            <Block link="https://github.com/marc-dantas/ts-list" title="TS List">A new version of an old todo list project written in TypeScript</Block>
           </Section>
           <Title>Contact</Title>
           <Section title="Social media">
