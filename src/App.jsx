@@ -36,7 +36,7 @@ export default function App() {
           </Section>
           <Title>Work</Title>
           <Section title="Main projects">
-            <Block link="https://github.com/marc-dantas/pile/" title="RaCNuL">Esoteric, concatenative, stack-based, statically typed and compiled programming language for computers.</Block>
+            <Block link="https://github.com/marc-dantas/pile/" title="Pile">Esoteric, concatenative, stack-based, statically typed and compiled programming language for computers.</Block>
             <Block link="https://github.com/marc-dantas/viztack/" title="Viztack">An educational website about reverse polish notation</Block>
             <Block link="https://github.com/marc-dantas/3d-py-pong" title="3d-py-pong">A 3D Pong game made in Python with Ursina Engine.</Block>
             <Block link="https://github.com/marc-dantas/marc-dantas.vercel.app" title="marc-dantas.vercel.app">My website improved in React.js</Block>
