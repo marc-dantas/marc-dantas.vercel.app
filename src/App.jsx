@@ -44,12 +44,18 @@ export default function App() {
           <Title>Contact</Title>
           <Section title="Social media">
             <Button link="https://github.com/marc-dantas">GitHub</Button>
-            <Button link="https://x.com/marc_dantas">Twitter</Button>
+            <Button link="https://x.com/marc_dantas">Twitter (X)</Button>
             <Button link="mailto:marcio.dantas.pro@outlook.com">My E-Mail</Button>
           </Section>
         </div>
       </div>
-      <Footer copy author="Marcio Dantas" />
+      <Footer>
+            <div class="block">
+                <p>Copyright © 2023 - This project is under <a href="https://opensource.org/license/mit/"><u>MIT License</u></a>.</p>
+            </div>
+            <p>Made with ❤️ in Brazil</p>
+            <p class="subtitle">By <strong>Marcio Dantas</strong></p>
+      </Footer>
     </div>
   );
 }
