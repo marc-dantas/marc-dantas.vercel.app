@@ -10,29 +10,18 @@ export default function App() {
   return (
     <div className="App">
       <Heading title="Hi, my name is Marcio Dantas" subtitle="I write softwares">
-        3+ years of experience making world a better place with software.
+        5+ years of experience making world a better place with software.
       </Heading>
       <div className="hero has-background-black">
         <div className="hero-body">
           <Title>Skills</Title>
           <Section title="Languages, Frameworks and Technologies">
-            <Button link="https://javascript.com">JavaScript</Button>
-            <Button title="Easter Egg: This site is made in React.js!" link="https://reactjs.com">React.js</Button>
-            <Button link="https://nextjs.org">Next.js</Button>
-            <Button link="https://bulma.io">Bulma CSS Framework</Button>
+            <Button link="https://reactjs.com">React.js</Button>
             <Button link="https://nodejs.org">Node.js</Button>
             <Button link="https://python.org">Python 3</Button>
-            <Button link="https://php.net">PHP</Button>
-            <Button link="https://mysql.com">MySQL</Button>
+            <Button link="https://www.djangoproject.com/">Django</Button>
+            <Button link="https://www.postgresql.org/">PostgreSQL</Button>
             <Button link="https://rust-lang.org">Rust</Button>
-          </Section>
-          <Section title="Experience">
-            <Button>Static web pages with React.js and Next.js</Button>
-            <Button>Automation and Data Science Software with Python 3</Button>
-            <Button>Dynamic web pages with PHP</Button>
-            <Button>MySQL Databases knowledge</Button>
-            <Button>Terminal-based and embedded software with Rust</Button>
-            <Button>Low-level knowledge in C and Assembly</Button>
           </Section>
           <Title>Work</Title>
           <Section title="Main projects">
@@ -50,11 +39,11 @@ export default function App() {
         </div>
       </div>
       <Footer>
-            <div class="block">
-                <p>Copyright © 2023 - This project is under <a href="https://opensource.org/license/mit/"><u>MIT License</u></a>.</p>
-            </div>
-            <p>Made with ❤️ in Brazil</p>
-            <p class="subtitle">By <strong>Marcio Dantas</strong></p>
+          <div class="block">
+              <p>Copyright © {new Date().getFullYear()} - This project is under <a href="https://opensource.org/license/mit/"><u>MIT License</u></a>.</p>
+          </div>
+          <p>Made with ❤️ in Brazil</p>
+          <p class="subtitle">By <strong>Marcio Dantas</strong></p>
       </Footer>
     </div>
   );
