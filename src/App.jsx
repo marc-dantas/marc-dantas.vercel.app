@@ -30,10 +30,11 @@ export default function App() {
             <Block link="https://github.com/marc-dantas/3d-py-pong" title="3d-py-pong">A 3D Pong game made in Python with Ursina Engine.</Block>
             <Block link="https://github.com/marc-dantas/marc-dantas.vercel.app" title="marc-dantas.vercel.app">My website improved in React.js</Block>
           </Section>
-          <Title>Contact</Title>
-          <Section title="Social media">
+          <Title>More information</Title>
+          <Section title="Contact">
             <Button link="https://github.com/marc-dantas">GitHub</Button>
             <Button link="https://x.com/marc_dantas">Twitter (X)</Button>
+            <Button link="https://linkedin.com/in/marc-dantas">Linkedin</Button>
             <Button link="mailto:marcio.dantas.pro@outlook.com">My E-Mail</Button>
           </Section>
         </div>
