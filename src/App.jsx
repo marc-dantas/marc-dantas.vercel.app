@@ -4,16 +4,37 @@ import Block from './components/Block';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import Title from './components/Title';
+import Menu from './components/Menu';
 import 'bulma';
 
 export default function App() {
   return (
-    <div className="App">
-      <Heading title="Hi there! I'm Marcio Dantas" subtitle="I write softwares">
-        5+ years of experience making world a better place with software.
+    <>
+      <Heading>
+        <div className="hero-body">
+            <div className="columns is-multiline">
+                <div className="column is-full">
+                    <p className="title is-family-monospace is-1">Hi there! I'm Marcio Dantas</p>
+                    <p className="title is-family-monospace is-2">I write softwares</p>
+                </div>
+                <div className="column">
+                  5+ years of experience making world a better place with software.
+                </div>
+            </div>
+        </div>
+        <div className="hero-footer">
+          <Menu>
+            <ul>
+              <li><a href="#skills">Skills</a></li>/
+              <li><a href="#work">Work</a></li>/
+              <li><a href="#moreinfo">More Info</a></li>
+            </ul>
+          </Menu>
+        </div>
       </Heading>
       <div className="hero has-background-black">
         <div className="hero-body">
+          <span id="skills"></span>
           <Title>Skills</Title>
           <Section title="I can write">
             <Button link="https://rust-lang.org">Rust</Button>
@@ -39,6 +60,7 @@ export default function App() {
             <Button>English</Button>
             <Button>Brazilian Portuguese</Button>
           </Section>
+          <span id="work"></span>
           <Title>Work</Title>
           <Section title="My open-source projects">
             <Block link="https://github.com/marc-dantas/pile/" title="Pile">Esoteric programming language for computers</Block>
@@ -46,7 +68,8 @@ export default function App() {
             <Block link="https://github.com/marc-dantas/3d-py-pong" title="3d-py-pong">A 3D Pong game made fully in Python</Block>
             <Block link="https://github.com/marc-dantas/marc-dantas.vercel.app" title="marc-dantas.vercel.app">Marcio Dantas' official website</Block>
           </Section>
-          <Title>More information</Title>
+          <span id="moreinfo"></span>
+          <Title>More info</Title>
           <Section title="Contact">
             <Button link="https://github.com/marc-dantas">GitHub</Button>
             <Button link="https://x.com/marc_dantas">Twitter (X)</Button>
@@ -68,6 +91,6 @@ export default function App() {
             </p>
           </div>
       </Footer>
-    </div>
+    </>
   );
 }
