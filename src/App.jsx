@@ -42,8 +42,14 @@ export default function App() {
           <div class="block">
               <p>Copyright © {new Date().getFullYear()} - This project is under <a href="https://opensource.org/license/mit/"><u>MIT License</u></a>.</p>
           </div>
-          <p>Made with ❤️ in Brazil</p>
-          <p class="subtitle">By <strong>Marcio Dantas</strong></p>
+          <div className="is-inline-block">
+            <p>
+              Made with ❤️ in Brazil by
+              <a href="https://github.com/marc-dantas">
+                <img className="image" width="400" src="/marciodantas.svg"></img>
+              </a>
+            </p>
+          </div>
       </Footer>
     </div>
   );
