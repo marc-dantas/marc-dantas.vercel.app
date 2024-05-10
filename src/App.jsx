@@ -4,7 +4,6 @@ import Block from './components/Block';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import Title from './components/Title';
-import Menu from './components/Menu';
 import 'bulma';
 
 export default function App() {
@@ -22,19 +21,9 @@ export default function App() {
                 </div>
             </div>
         </div>
-        <div className="hero-footer">
-          <Menu>
-            <ul>
-              <li><a href="#skills">Skills</a></li>/
-              <li><a href="#work">Work</a></li>/
-              <li><a href="#moreinfo">More Info</a></li>
-            </ul>
-          </Menu>
-        </div>
       </Heading>
       <div className="hero has-background-black">
         <div className="hero-body">
-          <span id="skills"></span>
           <Title>Skills</Title>
           <Section title="I can write">
             <Button link="https://rust-lang.org">Rust</Button>
@@ -60,15 +49,14 @@ export default function App() {
             <Button>English</Button>
             <Button>Brazilian Portuguese</Button>
           </Section>
-          <span id="work"></span>
           <Title>Work</Title>
           <Section title="My open-source projects">
             <Block link="https://github.com/marc-dantas/pile/" title="Pile">Esoteric programming language for computers</Block>
-            <Block link="https://github.com/marc-dantas/viztack/" title="Viztack">An educational website about Reverse Polish Notation</Block>
-            <Block link="https://github.com/marc-dantas/3d-py-pong" title="3d-py-pong">A 3D Pong game made fully in Python</Block>
+            <Block link="https://github.com/marc-dantas/domas/" title="Domas">Dynamic binary visualization algorithm</Block>
+            <Block link="https://github.com/marc-dantas/snake-editor/" title="Snake Editor">A minimalistic and customizable Python code editor</Block>
+            <Block link="https://github.com/marc-dantas/pong3d" title="pong3D">A 3D Pong game made fully in Python</Block>
             <Block link="https://github.com/marc-dantas/marc-dantas.vercel.app" title="marc-dantas.vercel.app">Marcio Dantas' official website</Block>
           </Section>
-          <span id="moreinfo"></span>
           <Title>More info</Title>
           <Section title="Contact">
             <Button link="https://github.com/marc-dantas">GitHub</Button>
@@ -80,7 +68,7 @@ export default function App() {
       </div>
       <Footer>
           <div class="block">
-              <p>Copyright © {new Date().getFullYear()} - This website is fully open-source and licenced under <a href="https://ose/mit/"><u>MIT License</u></a>.</p>
+              <p>Copyright &copy; {new Date().getFullYear()} - This website is fully open-source and licenced under <a href="https://ose/mit/"><u>MIT License</u></a>.</p>
           </div>
           <div className="is-inline-block">
             <p>
