@@ -51,11 +51,38 @@ export default function App() {
           </Section>
           <Title>Work</Title>
           <Section title="My open-source projects">
-            <Block link="https://github.com/marc-dantas/pile/" title="Pile">Esoteric programming language for computers</Block>
-            <Block link="https://github.com/marc-dantas/domas/" title="Domas">Dynamic binary visualization algorithm</Block>
-            <Block link="https://github.com/marc-dantas/snake-editor/" title="Snake Editor">A minimalistic and customizable Python code editor</Block>
-            <Block link="https://github.com/marc-dantas/pong3d" title="pong3D">A 3D Pong game made fully in Python</Block>
-            <Block link="https://github.com/marc-dantas/marc-dantas.vercel.app" title="marc-dantas.vercel.app">Marcio Dantas' official website</Block>
+            <div className="columns is-multiline is-centered">
+              <div className="column is-narrow">
+                <a href="https://github.com/marc-dantas/domas/">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=domas&theme=holi" alt="Domas" />
+                </a>
+              </div>
+              <div className="column is-narrow">
+                <a href="https://github.com/marc-dantas/sned/">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=sned&theme=holi" alt="Sned" />
+                </a>
+              </div>
+              <div className="column is-narrow">
+                <a href="https://github.com/marc-dantas/pong3d/">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=pong3d&theme=holi" alt="Pong3D" />
+                </a>
+              </div>
+              <div className="column is-narrow">
+                <a href="https://github.com/marc-dantas/marc-dantas.vercel.app/">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=marc-dantas.vercel.app&theme=holi" alt="marc-dantas.vercel.app" />
+                </a>
+              </div>
+              <div className="column is-narrow">
+                <a href="https://github.com/marc-dantas/todoguy/">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=todoguy&theme=holi" alt="TodoGuy" />
+                </a>
+              </div>
+              <div className="column is-narrow">
+                <a href="#">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=racnul&theme=holi" alt="Domas" />
+                </a>
+              </div>
+            </div>
           </Section>
           <Title>More info</Title>
           <Section title="Contact">
