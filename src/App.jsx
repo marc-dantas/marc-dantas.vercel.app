@@ -95,7 +95,7 @@ export default function App() {
       </div>
       <Footer>
           <div class="block">
-              <p>Copyright &copy; {new Date().getFullYear()} - This website is fully open-source and licenced under <a href="https://ose/mit/"><u>MIT License</u></a>.</p>
+              <p>&copy; {new Date().getFullYear()} Marcio Dantas. This website is fully open-source and licensed under <a href="https://ose/mit/"><u>MIT License</u></a>.</p>
           </div>
           <div className="is-inline-block">
             <p>
