@@ -1,6 +1,6 @@
 import Heading from './components/Heading';
 import Section from './components/Section';
-import Block from './components/Block';
+import Nav from './components/Nav';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import Title from './components/Title';
@@ -11,19 +11,37 @@ export default function App() {
     <>
       <Heading>
         <div className="hero-body">
-            <div className="columns is-multiline">
-                <div className="column is-full">
-                    <p className="title is-family-monospace is-1">Hi there! I'm Marcio Dantas</p>
-                    <p className="title is-family-monospace is-2">I write softwares</p>
+          <div className="columns is-multiline is-centered">
+            <div className="column is-full">
+              <div className="content">
+                <div className="columns is-centered has-text-centered is-multiline">
+                  <div className="column is-8">
+                    <p class="title is-2 is-family-monospace is-size-4-mobile has-text-justified">"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."</p>
+                  </div>
+                  <div className="column is-full">
+                    - Linus Torvalds
+                  </div>
                 </div>
-                <div className="column">
-                  5+ years of experience making world a better place with software.
-                </div>
+              </div>
             </div>
+          </div>
         </div>
       </Heading>
       <div className="hero has-background-black">
         <div className="hero-body">
+          <div className="hero is-black">
+            <div className="hero-body">
+              <div className="columns is-black is-multiline has-text-centered">
+                  <div className="column is-full">
+                      <p className="has-text-weight-bold is-family-monospace is-size-2-mobile is-size-1">Hi there! I'm Marcio Dantas</p>
+                      <p className="has-text-weight-bold is-family-monospace is-size-3 is-size-4-mobile">I write softwares</p>
+                  </div>
+                  <div className="column">
+                      <p className="has-text-weight-bold is-size-4 has-text-left-mobile is-size-6-mobile">Welcome to my personal website, take a look at my information and experience below.</p>
+                  </div>
+              </div>
+            </div>
+          </div>
           <Title>Skills</Title>
           <Section title="I can write">
             <Button link="https://rust-lang.org">Rust</Button>
@@ -87,9 +105,8 @@ export default function App() {
           <Title>More info</Title>
           <Section title="Contact">
             <Button link="https://github.com/marc-dantas">GitHub</Button>
-            <Button link="https://x.com/marc_dantas">Twitter (X)</Button>
             <Button link="https://linkedin.com/in/marc-dantas">Linkedin</Button>
-            <Button link="mailto:marcio.dantas.pro@outlook.com">My E-Mail</Button>
+            <Button link="mailto:marcio.dantas.pro@outlook.com">E-Mail</Button>
           </Section>
         </div>
       </div>
@@ -99,7 +116,6 @@ export default function App() {
           </div>
           <div className="is-inline-block">
             <p>
-              Made with ❤️ in Brazil by
               <a href="https://github.com/marc-dantas">
                 <img className="image" width="400" src="/marciodantas.svg"></img>
               </a>
