@@ -73,6 +73,11 @@ export default function App() {
           <Section title="My open-source projects">
             <div className="columns is-multiline">
               <div className="column is-narrow">
+                <a href="https://github.com/marc-dantas/pile/">
+                  <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=pile&theme=holi" alt="Pile" />
+                </a>
+              </div>
+              <div className="column is-narrow">
                 <a href="https://github.com/marc-dantas/domas/">
                   <img src="https://github-readme-stats.vercel.app/api/pin/?username=marc-dantas&repo=domas&theme=holi" alt="Domas" />
                 </a>
