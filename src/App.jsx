@@ -16,10 +16,12 @@ export default function App() {
               <div className="content">
                 <div className="columns is-centered has-text-centered is-multiline">
                   <div className="column is-8">
-                    <p class="title is-2 is-family-monospace is-size-4-mobile has-text-justified">"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program."</p>
+                    <p class="title is-2 is-family-monospace is-size-4-mobile has-text-justified">"<i>Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.</i>"</p>
                   </div>
                   <div className="column is-full">
-                    - Linus Torvalds
+                    <p className="is-size-4 has-text-weight-bold">
+                      — Linus Torvalds
+                    </p>
                   </div>
                 </div>
               </div>
